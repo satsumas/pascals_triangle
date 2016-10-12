@@ -24,3 +24,4 @@ def pascal(n):
             nth_row.append(pascal(n-1)[j-2] + pascal(n-1)[j-1])
     return nth_row
 
+# Next steps: memoisation
